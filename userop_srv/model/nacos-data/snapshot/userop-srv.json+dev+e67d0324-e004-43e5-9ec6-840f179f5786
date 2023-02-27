@@ -1,0 +1,15 @@
+{
+    "name":"userop-srv",
+    "tags":["imooc", "CZC", "python", "srv", "userop"],
+    "mysql":{
+        "db":"mxshop_userop_srv",
+        "host":"192.168.16.196",
+        "port":3306,
+        "user":"root",
+        "password":"56248123"
+    },
+    "consul":{
+        "host":"192.168.16.196",
+        "port":8500
+    }
+}

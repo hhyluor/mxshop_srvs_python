@@ -1,0 +1,21 @@
+name: 'user-web'
+port: 8021
+
+user-srv:
+  name: "user-srv"
+
+jwt:
+  key: '%vhrfcFIV$%OHM5NDAJ$B3JGlLAjEt6R'
+
+sms:
+  key: 'LTAI5tF9N83nqYMYfaH1M88G'
+  secrect: 'Jw0dyklVMCFTxlmWJBP5lK5h9PL58R'
+  expire: 300
+
+redis:
+  host: '192.168.30.132'
+  post: 6379
+
+consul:
+  host: '192.168.30.132'
+  post: 8500

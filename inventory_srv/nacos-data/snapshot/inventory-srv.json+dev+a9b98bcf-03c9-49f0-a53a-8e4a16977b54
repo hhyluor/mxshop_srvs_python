@@ -1,0 +1,20 @@
+{
+    "name":"inventory-srv",
+    "tags":["imooc", "CZC", "python", "srv", "inventory"],
+    "mysql":{
+        "db":"mxshop_inventory_srv",
+        "host":"192.168.16.196",
+        "port":3306,
+        "user":"root",
+        "password":"56248123"
+    },
+    "redis":{
+        "host":"192.168.16.196",
+        "port":6379,
+        "db":0
+    },
+    "consul":{
+        "host":"192.168.16.196",
+        "port":8500
+    }
+}
